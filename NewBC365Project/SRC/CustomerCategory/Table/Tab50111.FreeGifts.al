@@ -2,6 +2,8 @@ table 50111 "Free Gifts"
 {
     Caption = 'Free Gifts';
     DataClassification = CustomerContent;
+    DrillDownPageId = "Free Gift List";
+    LookupPageId = "Free Gift List";
 
     fields
     {

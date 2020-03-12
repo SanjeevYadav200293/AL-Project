@@ -1,6 +1,8 @@
 table 50110 "Customer Category"
 {
     Caption = 'Customer Category';
+    DrillDownPageId = "Customer Category List";
+    LookupPageId = "Customer Category List";
 
     fields
     {
