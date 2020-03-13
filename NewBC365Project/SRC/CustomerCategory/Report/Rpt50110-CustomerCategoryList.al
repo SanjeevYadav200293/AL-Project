@@ -3,8 +3,8 @@ report 50110 "Customer Category List"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     DefaultLayout = Word;
-    RDLCLayout = 'CustomerCategoryListRDLC.rdl';
-    WordLayout = 'CustomerCategoryListWord.docx';
+    RDLCLayout = 'Layout\CustomerCategoryListRDLC.rdl';
+    WordLayout = 'Layout\CustomerCategoryListWord.docx';
     Caption = 'Customer Category List';
 
     dataset
@@ -18,7 +18,7 @@ report 50110 "Customer Category List"
 
             trigger OnAfterGetRecord()
             begin
-                CalcFields("Total Customers For Category")
+                // CalcFields("Total Customers For Category")
             end;
         }
     }
