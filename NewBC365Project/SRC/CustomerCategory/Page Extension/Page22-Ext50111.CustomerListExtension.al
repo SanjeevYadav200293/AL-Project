@@ -14,9 +14,9 @@ pageextension 50111 CustomerListExtension extends "Customer List"
 
                 trigger OnAction()
                 var
-                //CustomerManagment : Codeunit "Customer Mgt.";
+                    CustomerManagment: Codeunit "Customer Managment";
                 begin
-
+                    CustomerManagment.AssignDefaultCategories();
                 end;
             }
         }

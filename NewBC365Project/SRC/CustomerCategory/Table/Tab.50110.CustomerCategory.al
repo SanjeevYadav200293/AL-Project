@@ -31,10 +31,9 @@ table 50110 "Customer Category"
 
         field(4; "Total Customers For Category"; Boolean)
         {
-            DataClassification = CustomerContent;
             Caption = 'Total Customers For Category';
-            //FieldClass=FlowField;
-            //CalcFormula=count(Customer where (customer))
+            //    FieldClass = FlowField;
+            //    CalcFormula = count (Customer where ("Customer Category SDM" = field (No)));
         }
 
         field(5; EnableNewsLetter; Option)

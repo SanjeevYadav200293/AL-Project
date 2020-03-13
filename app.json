@@ -9,12 +9,13 @@
   "EULA": "",
   "help": "",
   "url": "",
-  "logo": "",
+  "logo": "F:\\Sanjeev\\NAV Study Material\\Dynamics 365 BC\\BC 365 Avatar Image\\Avatar.jpg",
   "capabilities": [],
   "dependencies": [],
   "screenshots": [],
   "platform": "13.0.0.0",
   "application": "13.0.0.0",
+  "features": ["TranslationFile"],
   "idRange": {
     "from": 50100,
     "to": 50149

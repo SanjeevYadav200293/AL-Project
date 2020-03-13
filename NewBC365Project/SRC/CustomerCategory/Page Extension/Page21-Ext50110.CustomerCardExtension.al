@@ -26,9 +26,9 @@ pageextension 50110 "Customer Card Extension" extends "Customer Card"
 
                 trigger OnAction()
                 var
-                //CustomerManagment : Codeunit "Customer Mgt.";
+                    CustomerManagment: Codeunit "Customer Managment";
                 begin
-
+                    CustomerManagment.AssignDefaultCategory(Rec."No.");
                 end;
             }
         }

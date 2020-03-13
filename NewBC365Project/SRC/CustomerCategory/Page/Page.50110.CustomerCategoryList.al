@@ -55,9 +55,13 @@ page 50110 "Customer Category List"
 
                 trigger OnAction();
                 var
-                //CustomerManagment:Codeunit "Customer " 
+                    CustomerManagment: Codeunit "Customer Managment";
                 begin
-                    //CustomerManagment.
+                    //Integration Event Raised
+                    OnbeforeCreateDefaultCategoryAction(Rec);
+                    CustomerManagment.CreateDefaultCategory();
+                    //Integration Event Raised
+                    OnAfterCreateDefaultCategoryAction(Rec);
                 end;
             }
 
