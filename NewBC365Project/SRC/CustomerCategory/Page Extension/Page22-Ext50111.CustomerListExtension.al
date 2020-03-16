@@ -18,7 +18,13 @@ pageextension 50111 CustomerListExtension extends "Customer List"
                 begin
                     CustomerManagment.AssignDefaultCategories();
                 end;
+
             }
         }
     }
+
+    trigger OnOpenPage();
+    begin
+        //Report.Run(); 
+    end;
 }
