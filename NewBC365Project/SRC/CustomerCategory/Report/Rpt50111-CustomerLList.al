@@ -2,14 +2,16 @@ report 50111 CustomerList
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
-    DefaultLayout = RDLC;
+    DefaultLayout = Word;
     RDLCLayout = 'Layout/CustomerList.rdl';
     WordLayout = 'Layout/CustomerList.docx';
     PreviewMode = Normal;
+
     dataset
     {
         dataitem(Customer; Customer)
         {
+            RequestFilterFields = "No.";
             column(No_; "No.")
             {
                 IncludeCaption = true;

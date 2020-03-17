@@ -93,6 +93,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Customer Category List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 2371044193 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ProcessingOnly - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2371044193 - Control 1726858274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name2 To Apply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ProcessingOnly - Control Name2ToAppy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2371044193 - Control 1726858274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Name2 To Apply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ProcessingOnly - Control Name2ToAppy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2371044193 - Control 1522552409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace Existing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ProcessingOnly - Control ReplaceExisting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2371044193 - Control 1522552409 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace Existing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ProcessingOnly - Control ReplaceExisting - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1375496715 - Control 2894868066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Category</source>
           <note from="Developer" annotates="general" priority="2"></note>
